@@ -1,10 +1,10 @@
-# slidocli web interface
+# slidocli web interface 2
 
 Use files in this directory to serve `slidocli` as a web interface for use via mobile phones or tablets.
 
 ## Configuration
 
-Set the full path to `slidocli` in `post.php` before usage.
+Set the full path to `slidocli` in `fetch.php` and `vote.php` before usage.
 
 ## Preview
 
