@@ -8,7 +8,7 @@ Set the full path to `slidocli` in `post.php` before usage.
 
 ## Preview
 
-![](../img/slidocli-web-interface.png)
+![](slidocli-web-interface.png)
 
 ## Lazy Docker
 
