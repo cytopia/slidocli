@@ -185,15 +185,15 @@ New score:       27
 ## Web interface
 
 There are also two web interfaces available which make it easier to use it from mobile phones or
-tablets. Find them here: [www1](www1/README.md) (more geeky) and [www2](www2/README.md) (more usable).
+tablets. Find them here: [www1](www1/) (more geeky) and [www2](www2/) (more usable).
 
-In order to quickly spin them up, you can use the bundled [Docker Compose setup](docker/README.md).
+In order to quickly spin them up, you can use the bundled [Docker Compose setup](docker/).
 
 
 ## Deploy on AWS with Terraform
 
 Just for the sake... the whole stack can also be deployed easily on AWS. Check the bundled
-[Terraform module](terraform/README.md)
+[Terraform module](terraform/)
 
 
 ## Disclaimer
