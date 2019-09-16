@@ -17,6 +17,7 @@ automatically upvote any question specified by their id.
                                 ░               ░
 ```
 
+
 ## Usage
 ```
 USAGE: slidocli [-v] [-d] [-q question-id] SLIDO-URL
@@ -52,6 +53,7 @@ EXAMPLES:
   Upvote 3 times with 10 sec break in between:
   $ for i in `seq 3`; do slidocli -q '1234567' https://app.sli.do/event/abcdef123; sleep 10; done
 ```
+
 
 ## Examples
 
@@ -124,7 +126,6 @@ Room:            Room 1
 ]
 ```
 
-
 ### Upvote a question
 ```
 $ slidocli -q 'aaaaaaa' https://app.sli.do/event/abcdef123
@@ -180,7 +181,23 @@ Voted question:  aaaaaaa
 New score:       27
 ```
 
+
+## Web interface
+
+There are also two web interfaces available which make it easier to use it from mobile phones or
+tablets. Find them here: [www1](www1/README.md) (more geeky) and [www2](www2/README.md) (more usable).
+
+In order to quickly spin them up, you can use the bundled [Docker Compose setup](docker/README.md).
+
+
+## Deploy on AWS with Terraform
+
+Just for the sake... the whole stack can also be deployed easily on AWS. Check the bundled
+[Terraform module](terraform/README.md)
+
+
 ## Disclaimer
+
 This tool is for educational purposes only and must not be used to
 upvote any questions on sli.do, as it most likely violates their
 terms  and services. Use at your own risk.
